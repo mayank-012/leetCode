@@ -5,7 +5,7 @@ public:
     {
             if(i >= m || j >= n)
             {
-                return 1e7;
+                return 0;
             }
 
             if(i == m-1)
